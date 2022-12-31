@@ -1,0 +1,116 @@
+.body{
+height: 100vh;
+width: 100vh;
+background-color: grey;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.circleFrame{
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: grey;
+  border-radius: 50%;
+}
+
+.TText{
+  color: black;
+  font-family: Arial;
+}
+
+.circleArrow {
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 25px solid #f00;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 0;
+}
+  
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgba(249, 253, 216, 0.904);
+}
+  
+.numbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.txt0{
+  transform: translate(-0%, -250%);
+}
+.txt90{
+  transform: translate(+60%, -410%);
+  rotate: 90deg
+}
+.txt180{
+  transform: translate(-0%, -360%);
+  rotate:180deg;
+}
+.txt270{
+  transform: translate(125%, -410%);
+  rotate: 270deg;
+}
+
+.collumn{
+  height: 500px;
+  width: 50px;
+  border: 20px;
+  border: 2px solid black;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.alt2000{
+  transform: translate(0%, 636%);
+}
+.alt1000{
+  transform: translate(0%, 1326%);
+}
+.alt0{
+  transform: translate(0%, 2023%);
+}
+
+.line{
+  height: 0px;
+  width: 55px;
+  border: 1px solid red;
+}
+
+.altText{
+  transform: translate(0%, -7%);
+}
+
+.overlay {
+  position:relative;
+  top:0;
+  left:0;
+  width:200px;
+  height:200px;
+  transform:translate(0px,-100px);
+  clip-path: circle(50% at 100px 200px);
+}
+
+.boxbox{
+  height: 400px;
+  width: 200px;
+  transform: translate(0px, 100px);
+  background-image: linear-gradient(0deg, green 50%, blue 50%);
+}
